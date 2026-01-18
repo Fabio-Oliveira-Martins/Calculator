@@ -15,7 +15,7 @@ Calculadora aritmética simples com funções básicas:
 - Números de 0 a 9;
 - Operadores aritméticos de adição, subtração, multiplicação e divisão;
 - Botão Clear para limpar o display (campo onde aparece os digitos e o resultado das contas);
-- Botão Iqual para realizar o calculo.
+- Botão Igual para realizar o calculo.
 
 ## Como utilizar?
 
