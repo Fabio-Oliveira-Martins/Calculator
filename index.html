@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="src/styles/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/14.8.1/math.js"></script>
+    <script src="src/scripts/app.js" defer></script>
+</head>
+<body>
+    <main>
+        <section class="calculator-wrapper">
+            <div class="calculator">
+                <input type="text" class="calculator__display">
+                <div class="calculator__key-container">
+                    <button type="button" class="calculator__key calculator__key--clear" aria-label="Clear">C</button>
+                    <button type="button" class="calculator__key calculator__key--operator" aria-label="Division">/</button>
+                    <button type="button" class="calculator__key calculator__key--operator" aria-label="Multiplication">*</button>
+                    <button type="button" class="calculator__key calculator__key--operator" aria-label="Subtraction">-</button>
+                    
+                    <button type="button" class="calculator__key calculator__key--number">7</button>
+                    <button type="button" class="calculator__key calculator__key--number">8</button>
+                    <button type="button" class="calculator__key calculator__key--number">9</button>
+                    <button type="button" class="calculator__key calculator__key--operator" aria-label="Addition">+</button>
+                    
+                    <button type="button" class="calculator__key calculator__key--number">4</button>
+                    <button type="button" class="calculator__key calculator__key--number">5</button>
+                    <button type="button" class="calculator__key calculator__key--number">6</button>
+                    
+                    <button type="button" class="calculator__key calculator__key--number">1</button>
+                    <button type="button" class="calculator__key calculator__key--number">2</button>
+                    <button type="button" class="calculator__key calculator__key--number">3</button>
+                                        
+                    <button type="button" class="calculator__key calculator__key--number">0</button>
+                    <button type="button" class="calculator__key calculator__key--dot" aria-label="Dot">.</button>
+                    <button type="button" class="calculator__key calculator__key--equal" aria-label="Equal">=</button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
